@@ -10,3 +10,12 @@ python -m pip install grpcio-tools
 python -m grpc_tools.protoc --python_out=. --grpc_python_out=. --pyi_out=. --proto_path=. ./venv/protos/*.proto  
 Важно: при работе в виртуальном окружении прописывать именно эту команду, во всех гайдах этот момент упускается  
 
+запуск сервера
+-
+python venv/server.py
+
+запуск клиента
+-
+python  venv/client.py
+
+
